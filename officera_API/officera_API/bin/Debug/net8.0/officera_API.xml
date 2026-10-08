@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>officera_API</name>
+    </assembly>
+    <members>
+        <member name="T:officera_API.Controllers.AuthController">
+            <summary>
+            Sign-in (password / mobile OTP), registration, password reset and session endpoints.
+            Login returns a JWT: send it as "Authorization: Bearer {token}".
+            </summary>
+        </member>
+        <member name="M:officera_API.Controllers.AuthController.Login(officera.BusinessAccessLayer.DTOs.LoginRequest)">
+            <summary>Email + password sign-in. 5 failed attempts lock the account (Settings › Business rules).</summary>
+        </member>
+        <member name="M:officera_API.Controllers.AuthController.LoginWithOtp(officera.BusinessAccessLayer.DTOs.OtpLoginRequest)">
+            <summary>Sign-in with a mobile OTP (request it first with SendOtp, purpose LOGIN).</summary>
+        </member>
+        <member name="M:officera_API.Controllers.AuthController.SendOtp(officera.BusinessAccessLayer.DTOs.SendOtpRequest)">
+            <summary>Sends a one-time code. Purpose: LOGIN, REGISTER, ENQUIRY (mobile) or RESET (account email).</summary>
+        </member>
+        <member name="M:officera_API.Controllers.AuthController.VerifyOtp(officera.BusinessAccessLayer.DTOs.VerifyOtpRequest)">
+            <summary>Checks a code and returns a single-use verification id for Register / ResetPassword / Lead capture.</summary>
+        </member>
+        <member name="M:officera_API.Controllers.AuthController.Me">
+            <summary>The signed-in user and their current permissions (read from the database, not the token).</summary>
+        </member>
+        <member name="M:officera_API.Controllers.AuthController.CreateMemberLogin(officera.BusinessAccessLayer.DTOs.CreateMemberLoginRequest)">
+            <summary>Creates a member login (e.g. after lead conversion) with a one-time temporary password.</summary>
+        </member>
+        <member name="M:officera_API.Controllers.AuthController.Unlock(officera.BusinessAccessLayer.DTOs.UnlockUserRequest)">
+            <summary>Clears a sign-in lockout (Administration › Users).</summary>
+        </member>
+        <member name="T:officera_API.Controllers.CrudControllerBase`1">
+            <summary>
+            Standard POST endpoints for a signed-in module:
+            POST api/{Module}/Get · GetById · Save · Update · Delete.
+            Fine-grained rules (permission matrix, location scope, member ownership) are enforced in the business layer.
+            </summary>
+        </member>
+        <member name="M:officera_API.Controllers.CrudControllerBase`1.Get(officera.Shared.Common.PagedRequest)">
+            <summary>Search / filter / sort / paginate. PageSize 0 returns every row you may see.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.PublicReadCrudControllerBase`1">
+            <summary>
+            Same endpoints, but Get / GetById are open to the public website (the business layer limits anonymous
+            callers to published / active rows). Save / Update / Delete still require a signed-in user.
+            </summary>
+        </member>
+        <member name="T:officera_API.Controllers.LocationController">
+            <summary>Locations – Workspace › Locations, public search and location pages.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.ResourceController">
+            <summary>Resources (desks, offices, meeting rooms) – Workspace › Resources, floor maps, booking wizard.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.PlanController">
+            <summary>Membership plans – Plans and Promotions, public pricing.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.EventController">
+            <summary>Community events – public events page and member community.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.BlogPostController">
+            <summary>Blog posts – Marketing Content › Blog and public blog.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.GalleryController">
+            <summary>Gallery – Marketing Content › Gallery and public gallery.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.IntegrationController">
+            <summary>Integrations – Configuration / Integrations (Super Admin). Anonymous callers only see which providers are active.</summary>
+        </member>
+        <member name="M:officera_API.Controllers.IntegrationController.Test(officera.Shared.Common.IdRequest)">
+            <summary>Runs a server-side connection test with the stored credentials.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.UserController">
+            <summary>Staff users and member logins. Members can only read and edit their own profile.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.RoleController">
+            <summary>Roles and permission matrix (staff only).</summary>
+        </member>
+        <member name="M:officera_API.Controllers.RoleController.GetPermissions">
+            <summary>The permission catalogue (rows of the permission matrix).</summary>
+        </member>
+        <member name="M:officera_API.Controllers.BookingController.GetOccupancy(officera.BusinessAccessLayer.DTOs.OccupancyRequest)">
+            <summary>Occupied slots without member details – availability grid and public search.</summary>
+        </member>
+        <member name="M:officera_API.Controllers.PaymentController.GetGateway">
+            <summary>The active payment gateway (from Configuration / Integrations), without secrets.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.SupportController">
+            <summary>Support tickets.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.LeadController">
+            <summary>CRM leads (staff). Website enquiries arrive through the anonymous Capture endpoint after OTP verification.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.ConfigurationController">
+            <summary>Organisation settings (Administration › Settings). Read is public because invoices and prices use the GST rate.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.HomepageController">
+            <summary>Homepage marketing content (Marketing Content › Homepage).</summary>
+        </member>
+        <member name="T:officera_API.Controllers.LookupController">
+            <summary>Dropdown reference data.</summary>
+        </member>
+        <member name="M:officera_API.Controllers.LookupController.GetStates">
+            <summary>Indian states with GST state codes.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.DashboardController">
+            <summary>Operator dashboard KPIs and charts calculated from the database.</summary>
+        </member>
+        <member name="T:officera_API.Controllers.IdsController">
+            <summary>
+            Reserves human-readable ids (BKG-0042 ...) so the app can show a new record immediately while it is saved.
+            </summary>
+        </member>
+        <member name="T:officera_API.Controllers.FileController">
+            <summary>
+            File uploads (multipart/form-data). Files are validated (extension, size, signature), renamed and stored
+            under wwwroot/uploads/{category}. The response carries the URL path to use in the app.
+            </summary>
+        </member>
+        <member name="M:officera_API.Controllers.FileController.Upload(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.String)">
+            <param name="files">One or more files (field name "files").</param>
+            <param name="category">images | documents | profiles | attachments</param>
+        </member>
+        <member name="T:officera_API.Infrastructure.CurrentUserService">
+            <summary>
+            Resolves the caller from the validated JWT, then loads role, locations, permissions and status from the
+            database once per request. A deactivated or deleted account is treated as signed out immediately.
+            </summary>
+        </member>
+        <member name="T:officera_API.Infrastructure.HttpContextAuditUserProvider">
+            <summary>Audit-column user id taken straight from the token (no database access, so it is safe inside DbContext setup).</summary>
+        </member>
+        <member name="T:officera_API.Infrastructure.ExceptionHandlingMiddleware">
+            <summary>
+            Central error handling: every exception becomes the standard ApiResponse envelope. Business errors keep their
+            message; unexpected errors are logged in full (Serilog) and the client only sees a generic message and a trace id.
+            </summary>
+        </member>
+        <member name="T:officera_API.Infrastructure.ServiceRegistration">
+            <summary>Dependency-injection and pipeline setup, kept out of Program.cs.</summary>
+        </member>
+        <member name="T:Program">
+            <summary>Exposed for integration tests (WebApplicationFactory).</summary>
+        </member>
+    </members>
+</doc>

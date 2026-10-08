@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Officera – Smart Workspaces. Simple Management.</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Officera coworking: book hot desks, dedicated desks, private offices and meeting rooms across Hyderabad, Bangalore and Chennai.">
+  <meta name="application-name" content="Officera">
+  <meta name="apple-mobile-web-app-title" content="Officera">
+  <meta name="theme-color" content="#3140b0">
+
+  <!-- Apply the saved light/dark theme before first paint (no flash). Kept in sync with ThemeService. -->
+  <script>
+    (function () {
+      var t = 'light';
+      try { if (localStorage.getItem('officera-theme') === 'dark') t = 'dark'; } catch (e) {}
+      var h = document.documentElement;
+      h.classList.add(t + '-theme');
+      h.setAttribute('data-theme', t);
+      if (t === 'dark') document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0e121c');
+    })();
+  </script>
+
+  <!-- Officera brand icons (public/) -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Social / link previews -->
+  <meta property="og:site_name" content="Officera">
+  <meta property="og:title" content="Officera – Smart Workspaces. Simple Management.">
+  <meta property="og:description" content="Book desks and rooms, manage memberships and pay GST-ready invoices in one place.">
+  <meta property="og:image" content="icon-512.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

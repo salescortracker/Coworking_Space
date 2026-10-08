@@ -1,0 +1,12 @@
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\bin\Debug\net8.0\officera.Shared.deps.json
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\bin\Debug\net8.0\officera.Shared.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\bin\Debug\net8.0\officera.Shared.pdb
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\officera.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\officera.Shared.AssemblyInfoInputs.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\officera.Shared.AssemblyInfo.cs
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\officera.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\officera.Shared.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\refint\officera.Shared.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\officera.Shared.pdb
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\ref\officera.Shared.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.Shared\obj\Debug\net8.0\officera.Shared.csproj.AssemblyReference.cache

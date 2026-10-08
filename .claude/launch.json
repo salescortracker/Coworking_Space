@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "officera-web",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd co-working && npx ng serve --port 4200"],
+      "port": 4200
+    }
+  ]
+}

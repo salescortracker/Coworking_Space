@@ -1,0 +1,287 @@
+/* =========================================================
+   OFFICERA DESIGN TOKENS
+   Single source of truth for colour, type, spacing, radius.
+   ========================================================= */
+:root {
+  /* Brand */
+  --primary: #3140b0;
+  --primary-hover: #28359a;
+  --primary-active: #212c82;
+  --primary-50: #eef0fb;
+  --primary-100: #dde1f7;
+  --primary-200: #b9c1ee;
+  --primary-contrast: #ffffff;
+
+  --secondary: #475467;
+  --secondary-hover: #344054;
+  --secondary-50: #f2f4f7;
+
+  /* Semantic */
+  --success: #17804a;
+  --success-50: #e8f5ee;
+  --success-100: #c9e9d6;
+  --warning: #a8620a;
+  --warning-50: #fdf4e3;
+  --warning-100: #f8e2b8;
+  --danger: #c0352b;
+  --danger-hover: #a52b22;
+  --danger-50: #fcecea;
+  --danger-100: #f6cdc9;
+  --info: #1f6fd1;
+  --info-50: #e9f2fc;
+  --info-100: #c8ddf6;
+  --neutral-50: #f2f4f7;
+  --neutral-100: #e4e7ec;
+
+  /* Surfaces */
+  --bg: #f4f5f9;
+  --surface: #ffffff;
+  --surface-alt: #f9fafc;
+  --surface-sunken: #eef0f5;
+  --border: #e1e4ec;
+  --border-strong: #c9ceda;
+  --overlay: rgba(16, 22, 41, 0.48);
+
+  /* Text */
+  --text: #161c2d;
+  --text-secondary: #344054;
+  --text-muted: #5f6878;
+  --text-disabled: #98a1b0;
+  --text-inverse: #ffffff;
+
+  /* Sidebar (admin) */
+  --sidebar-bg: #141a33;
+  --sidebar-text: #c3c8dc;
+  --sidebar-text-active: #ffffff;
+  --sidebar-hover: rgba(255, 255, 255, 0.06);
+  --sidebar-active: rgba(122, 138, 255, 0.18);
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+
+  /* Chart palette (validated for distinguishability) */
+  --chart-1: #3140b0;
+  --chart-2: #1aa39a;
+  --chart-3: #e0892b;
+  --chart-4: #8a5cd6;
+  --chart-5: #d44c74;
+  --chart-6: #6b7a90;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.25rem;
+  --fs-4xl: 2.875rem;
+  --lh-tight: 1.25;
+  --lh-base: 1.5;
+
+  /* Spacing (4px grid) */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+
+  /* Radius / elevation */
+  --radius-sm: 4px;
+  --radius: 6px;
+  --radius-lg: 8px;
+  --radius-full: 999px;
+  --shadow-xs: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-sm: 0 1px 3px rgba(16, 24, 40, 0.08), 0 1px 2px rgba(16, 24, 40, 0.04);
+  --shadow-md: 0 6px 16px rgba(16, 24, 40, 0.1);
+  --shadow-lg: 0 16px 40px rgba(16, 24, 40, 0.16);
+  --focus-ring: 0 0 0 3px rgba(49, 64, 176, 0.28);
+
+  /* Layout */
+  --topbar-h: 60px;
+  --sidebar-w: 248px;
+  --sidebar-w-collapsed: 68px;
+  --content-max: 1440px;
+  --z-dropdown: 50;
+  --z-sticky: 40;
+  --z-drawer: 80;
+  --z-modal: 90;
+  --z-toast: 100;
+  --transition: 150ms ease;
+
+  /* Theme roles (light values = the original Officera design; dark overrides below) */
+  color-scheme: light;
+  --primary-solid: var(--primary); /* filled brand surfaces that carry white text */
+  --primary-solid-hover: var(--primary-hover);
+  --primary-solid-active: var(--primary-active);
+  --success-solid: var(--success);
+  --success-solid-hover: #126a3d;
+  --danger-solid: var(--danger);
+  --danger-solid-hover: var(--danger-hover);
+  --danger-ring: 0 0 0 3px rgba(192, 53, 43, 0.2);
+  --info-text: #174f96;
+  --success-text: #0f5c35;
+  --warning-text: #7a4706;
+  --danger-text: #8c241c;
+  --purple: #6b3fb5;
+  --purple-50: #f2ecfb;
+  --header-bg: var(--surface);
+  --public-header-bg: rgba(255, 255, 255, 0.97);
+  --input-bg: var(--surface);
+  --table-head-bg: var(--surface-alt);
+  --hover-bg: var(--surface-sunken);
+  --modal-bg: var(--surface);
+  --switch-knob: #ffffff;
+  --skeleton-shine: #f6f7fa;
+  --spinner-backdrop: rgba(244, 245, 249, 0.62);
+  --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235f6878' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  --rating: #b7791f;
+  --rating-icon: #e0a42b;
+  --map-bg: #e8ecf3;
+  --map-grid: #d7dce6;
+  --map-road: #ffffff;
+  --fm-bg: #f8f9fc;
+  --fm-zone-bg: rgba(255, 255, 255, 0.55);
+  --fm-landmark-bg: #eef0f5;
+  --fm-available-bg: #e9f6ef;
+  --fm-available-border: #4fae7d;
+  --fm-available-text: #135f38;
+  --fm-booked-bg: #fbe9e7;
+  --fm-booked-border: #d9776d;
+  --fm-booked-text: #8c241c;
+  --fm-blocked-a: #eceef3;
+  --fm-blocked-b: #e1e4ec;
+  --fm-blocked-border: #b5bbc8;
+  --fm-maintenance-border: #d9a24c;
+  --fm-selected-ring: rgba(49, 64, 176, 0.25);
+  --avail-busy-bg: #f3c7c2;
+  --avail-busy-border: #e3a49c;
+  --invoice-bg: #ffffff;
+  --invoice-text: #1d2433;
+}
+
+/* =========================================================
+   DARK THEME — applied by ThemeService as html.dark-theme.
+   Screen only, so printed invoices/reports stay on white paper.
+   ========================================================= */
+@media screen {
+  html.dark-theme {
+    color-scheme: dark;
+
+    --primary: #8590f0; /* readable accent for links, active tabs, icons */
+    --primary-hover: #9ea7f4;
+    --primary-active: #6f7be6;
+    --primary-50: rgba(133, 144, 240, 0.13);
+    --primary-100: rgba(133, 144, 240, 0.24);
+    --primary-200: rgba(133, 144, 240, 0.42);
+    --primary-contrast: #ffffff;
+    --primary-solid: #4c59d0;
+    --primary-solid-hover: #5a67d8;
+    --primary-solid-active: #4350c2;
+
+    --secondary: #9aa3b5;
+    --secondary-hover: #c2c8d6;
+    --secondary-50: #222939;
+
+    --success: #4cc38a;
+    --success-50: rgba(76, 195, 138, 0.12);
+    --success-100: rgba(76, 195, 138, 0.28);
+    --warning: #e5a54b;
+    --warning-50: rgba(229, 165, 75, 0.12);
+    --warning-100: rgba(229, 165, 75, 0.3);
+    --danger: #f07167;
+    --danger-hover: #f48a81;
+    --danger-50: rgba(240, 113, 103, 0.12);
+    --danger-100: rgba(240, 113, 103, 0.3);
+    --info: #64a8f5;
+    --info-50: rgba(100, 168, 245, 0.12);
+    --info-100: rgba(100, 168, 245, 0.3);
+    --neutral-50: #222939;
+    --neutral-100: #2c3447;
+
+    --bg: #0e121c;
+    --surface: #161b28;
+    --surface-alt: #1a2030;
+    --surface-sunken: #212839;
+    --border: #272e41;
+    --border-strong: #363e55;
+    --overlay: rgba(3, 6, 14, 0.66);
+
+    --text: #e8ebf3;
+    --text-secondary: #c2c8d6;
+    --text-muted: #949cb0;
+    --text-disabled: #646c80;
+    --text-inverse: #ffffff;
+
+    --sidebar-bg: #0b0f19;
+    --sidebar-border: rgba(255, 255, 255, 0.06);
+
+    --chart-1: #7b87ee;
+    --chart-2: #2fbcb2;
+    --chart-3: #eb9a45;
+    --chart-4: #a07ce6;
+    --chart-5: #e2688c;
+    --chart-6: #8e9bb0;
+
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.25);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 18px 44px rgba(0, 0, 0, 0.55);
+    --focus-ring: 0 0 0 3px rgba(133, 144, 240, 0.4);
+
+    --success-solid: #1e8a52;
+    --success-solid-hover: #24985c;
+    --danger-solid: #c9443b;
+    --danger-solid-hover: #d65148;
+    --danger-ring: 0 0 0 3px rgba(240, 113, 103, 0.3);
+    --info-text: #9cc8fa;
+    --success-text: #8fdcb5;
+    --warning-text: #f0c787;
+    --danger-text: #f6a9a2;
+    --purple: #b79cf0;
+    --purple-50: rgba(160, 124, 230, 0.15);
+    --public-header-bg: rgba(22, 27, 40, 0.94);
+    --switch-knob: #e8ebf3;
+    --skeleton-shine: #2a3245;
+    --spinner-backdrop: rgba(8, 11, 19, 0.6);
+    --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23949cb0' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    --rating: #e9b04f;
+    --rating-icon: #f0b84a;
+    --map-bg: #182033;
+    --map-grid: #222b40;
+    --map-road: #2b3550;
+    --fm-bg: #131826;
+    --fm-zone-bg: rgba(255, 255, 255, 0.03);
+    --fm-landmark-bg: #222939;
+    --fm-available-bg: rgba(76, 195, 138, 0.14);
+    --fm-available-border: #3fa676;
+    --fm-available-text: #8fdcb5;
+    --fm-booked-bg: rgba(240, 113, 103, 0.14);
+    --fm-booked-border: #c8645b;
+    --fm-booked-text: #f6a9a2;
+    --fm-blocked-a: #1c2231;
+    --fm-blocked-b: #252c3d;
+    --fm-blocked-border: #444c63;
+    --fm-maintenance-border: #b98a3f;
+    --fm-selected-ring: rgba(133, 144, 240, 0.35);
+    --avail-busy-bg: rgba(240, 113, 103, 0.3);
+    --avail-busy-border: rgba(240, 113, 103, 0.5);
+    --invoice-bg: var(--surface);
+    --invoice-text: var(--text);
+  }
+}
+
+/* Smooth colour change only while the user switches theme (never on first paint, so no flicker). */
+html.theme-switching,
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after {
+  transition: background-color 220ms ease, border-color 220ms ease, color 220ms ease, fill 220ms ease, box-shadow 220ms ease !important;
+}

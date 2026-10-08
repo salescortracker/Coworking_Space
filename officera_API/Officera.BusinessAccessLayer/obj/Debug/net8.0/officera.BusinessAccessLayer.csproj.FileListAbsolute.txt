@@ -1,0 +1,17 @@
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\bin\Debug\net8.0\officera.BusinessAccessLayer.deps.json
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\bin\Debug\net8.0\officera.BusinessAccessLayer.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\bin\Debug\net8.0\officera.BusinessAccessLayer.pdb
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\officera.BusinessAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\officera.BusinessAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\officera.BusinessAccessLayer.AssemblyInfo.cs
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\officera.BusinessAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\officera.BusinessAccessLayer.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\refint\officera.BusinessAccessLayer.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\officera.BusinessAccessLayer.pdb
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\ref\officera.BusinessAccessLayer.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\officera.BusinessAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\bin\Debug\net8.0\officera.DataAccessLayer.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\bin\Debug\net8.0\officera.Shared.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\bin\Debug\net8.0\officera.DataAccessLayer.pdb
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\bin\Debug\net8.0\officera.Shared.pdb
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\Officera.BusinessAccessLayer\obj\Debug\net8.0\officera.5CE3D003.Up2Date

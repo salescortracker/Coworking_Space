@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Officera.BusinessAccessLayer/officera.BusinessAccessLayer.csproj" />
+  <Project Path="officera.DataAccessLayer/officera.DataAccessLayer.csproj" />
+  <Project Path="officera.Shared/officera.Shared.csproj" />
+  <Project Path="officera.TestCases/officera.TestCases.csproj" />
+  <Project Path="officera_API/officera_API.csproj" />
+</Solution>

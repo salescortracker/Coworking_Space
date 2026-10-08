@@ -1,0 +1,14 @@
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\officera.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\officera.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\officera.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\officera.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\officera.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\bin\Debug\net8.0\officera.DataAccessLayer.deps.json
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\bin\Debug\net8.0\officera.DataAccessLayer.runtimeconfig.json
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\bin\Debug\net8.0\officera.DataAccessLayer.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\bin\Debug\net8.0\officera.DataAccessLayer.pdb
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\officera.DataAccessLayer.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\refint\officera.DataAccessLayer.dll
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\officera.DataAccessLayer.pdb
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\officera.DataAccessLayer.genruntimeconfig.cache
+C:\Users\Karishma\Desktop\CommonOfficera\officera_API\officera.DataAccessLayer\obj\Debug\net8.0\ref\officera.DataAccessLayer.dll

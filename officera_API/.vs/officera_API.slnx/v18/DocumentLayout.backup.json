@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E26745B5-83F4-4E90-B522-87F7729D74CB}|officera_API\\officera_API.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26745B5-83F4-4E90-B522-87F7729D74CB}|officera_API\\officera_API.csproj|solutionrelative:officera_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.dataaccesslayer\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|solutionrelative:officera.dataaccesslayer\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.dataaccesslayer\\repositories\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|solutionrelative:officera.dataaccesslayer\\repositories\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.dataaccesslayer\\data\\officeracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|solutionrelative:officera.dataaccesslayer\\data\\officeracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26745B5-83F4-4E90-B522-87F7729D74CB}|officera_API\\officera_API.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E26745B5-83F4-4E90-B522-87F7729D74CB}|officera_API\\officera_API.csproj|solutionrelative:officera_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26745B5-83F4-4E90-B522-87F7729D74CB}|officera_API\\officera_API.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera_api\\officera_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E26745B5-83F4-4E90-B522-87F7729D74CB}|officera_API\\officera_API.csproj|solutionrelative:officera_api\\officera_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52AE26C-F32F-4023-9AE2-B4659ED4E4CB}|officera.TestCases\\officera.TestCases.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.testcases\\officera.testcases.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D52AE26C-F32F-4023-9AE2-B4659ED4E4CB}|officera.TestCases\\officera.TestCases.csproj|solutionrelative:officera.testcases\\officera.testcases.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE966D24-C133-41AA-B957-F0EB9AB76317}|officera.Shared\\officera.Shared.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.shared\\officera.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE966D24-C133-41AA-B957-F0EB9AB76317}|officera.Shared\\officera.Shared.csproj|solutionrelative:officera.shared\\officera.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.dataaccesslayer\\officera.dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|solutionrelative:officera.dataaccesslayer\\officera.dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57BAACD6-CDF7-4E18-97E5-B9231E5135EB}|Officera.BusinessAccessLayer\\Officera.BusinessAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.businessaccesslayer\\officera.businessaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57BAACD6-CDF7-4E18-97E5-B9231E5135EB}|Officera.BusinessAccessLayer\\Officera.BusinessAccessLayer.csproj|solutionrelative:officera.businessaccesslayer\\officera.businessaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.dataaccesslayer\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|solutionrelative:officera.dataaccesslayer\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE966D24-C133-41AA-B957-F0EB9AB76317}|officera.Shared\\officera.Shared.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.shared\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE966D24-C133-41AA-B957-F0EB9AB76317}|officera.Shared\\officera.Shared.csproj|solutionrelative:officera.shared\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE966D24-C133-41AA-B957-F0EB9AB76317}|officera.Shared\\officera.Shared.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.shared\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE966D24-C133-41AA-B957-F0EB9AB76317}|officera.Shared\\officera.Shared.csproj|solutionrelative:officera.shared\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.dataaccesslayer\\repositories\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|solutionrelative:officera.dataaccesslayer\\repositories\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE966D24-C133-41AA-B957-F0EB9AB76317}|officera.Shared\\officera.Shared.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE966D24-C133-41AA-B957-F0EB9AB76317}|officera.Shared\\officera.Shared.csproj|solutionrelative:officera.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52AE26C-F32F-4023-9AE2-B4659ED4E4CB}|officera.TestCases\\officera.TestCases.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.testcases\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52AE26C-F32F-4023-9AE2-B4659ED4E4CB}|officera.TestCases\\officera.TestCases.csproj|solutionrelative:officera.testcases\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B8B469-6962-4DD3-96AF-5F976153BF62}|officera.DataAccessLayer\\officera.DataAccessLayer.csproj|solutionrelative:officera.dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57BAACD6-CDF7-4E18-97E5-B9231E5135EB}|Officera.BusinessAccessLayer\\Officera.BusinessAccessLayer.csproj|c:\\users\\karishma\\desktop\\commonofficera\\officera_api\\officera.businessaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57BAACD6-CDF7-4E18-97E5-B9231E5135EB}|Officera.BusinessAccessLayer\\Officera.BusinessAccessLayer.csproj|solutionrelative:officera.businessaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera_API\\Program.cs",
+              "RelativeDocumentMoniker": "officera_API\\Program.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera_API\\Program.cs",
+              "RelativeToolTip": "officera_API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:16:55.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "officera.DataAccessLayer\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "officera.DataAccessLayer\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:25:53.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneralRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Repositories\\GeneralRepository.cs",
+              "RelativeDocumentMoniker": "officera.DataAccessLayer\\Repositories\\GeneralRepository.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Repositories\\GeneralRepository.cs",
+              "RelativeToolTip": "officera.DataAccessLayer\\Repositories\\GeneralRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:20:37.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OfficeraContext.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Data\\OfficeraContext.cs",
+              "RelativeDocumentMoniker": "officera.DataAccessLayer\\Data\\OfficeraContext.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Data\\OfficeraContext.cs",
+              "RelativeToolTip": "officera.DataAccessLayer\\Data\\OfficeraContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:35:17.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera_API\\appsettings.json",
+              "RelativeDocumentMoniker": "officera_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera_API\\appsettings.json",
+              "RelativeToolTip": "officera_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-07T09:15:44.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "officera_API",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera_API\\officera_API.csproj",
+              "RelativeDocumentMoniker": "officera_API\\officera_API.csproj",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera_API\\officera_API.csproj",
+              "RelativeToolTip": "officera_API\\officera_API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T09:08:07.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "officera.TestCases",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.TestCases\\officera.TestCases.csproj",
+              "RelativeDocumentMoniker": "officera.TestCases\\officera.TestCases.csproj",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.TestCases\\officera.TestCases.csproj",
+              "RelativeToolTip": "officera.TestCases\\officera.TestCases.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T09:55:26.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "officera.Shared",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.Shared\\officera.Shared.csproj",
+              "RelativeDocumentMoniker": "officera.Shared\\officera.Shared.csproj",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.Shared\\officera.Shared.csproj",
+              "RelativeToolTip": "officera.Shared\\officera.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T09:27:19.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "officera.DataAccessLayer",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\officera.DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "officera.DataAccessLayer\\officera.DataAccessLayer.csproj",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\officera.DataAccessLayer.csproj",
+              "RelativeToolTip": "officera.DataAccessLayer\\officera.DataAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T09:18:56.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "officera.BusinessAccessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\Officera.BusinessAccessLayer\\officera.BusinessAccessLayer.csproj",
+              "RelativeDocumentMoniker": "Officera.BusinessAccessLayer\\officera.BusinessAccessLayer.csproj",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\Officera.BusinessAccessLayer\\officera.BusinessAccessLayer.csproj",
+              "RelativeToolTip": "Officera.BusinessAccessLayer\\officera.BusinessAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T09:08:27.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "officera.DataAccessLayer\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "officera.DataAccessLayer\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:22:56.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.Shared\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "officera.Shared\\Common\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.Shared\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "officera.Shared\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:30:27.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomException.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.Shared\\Exceptions\\CustomException.cs",
+              "RelativeDocumentMoniker": "officera.Shared\\Exceptions\\CustomException.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.Shared\\Exceptions\\CustomException.cs",
+              "RelativeToolTip": "officera.Shared\\Exceptions\\CustomException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:28:08.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGeneralRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Repositories\\IGeneralRepository.cs",
+              "RelativeDocumentMoniker": "officera.DataAccessLayer\\Repositories\\IGeneralRepository.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Repositories\\IGeneralRepository.cs",
+              "RelativeToolTip": "officera.DataAccessLayer\\Repositories\\IGeneralRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:21:58.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.Shared\\Class1.cs",
+              "RelativeDocumentMoniker": "officera.Shared\\Class1.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.Shared\\Class1.cs",
+              "RelativeToolTip": "officera.Shared\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:11:43.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.TestCases\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "officera.TestCases\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.TestCases\\UnitTest1.cs",
+              "RelativeToolTip": "officera.TestCases\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:10:00.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "officera.DataAccessLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\officera.DataAccessLayer\\Class1.cs",
+              "RelativeToolTip": "officera.DataAccessLayer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:09:18.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\Officera.BusinessAccessLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "Officera.BusinessAccessLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\Karishma\\Desktop\\CommonOfficera\\officera_API\\Officera.BusinessAccessLayer\\Class1.cs",
+              "RelativeToolTip": "Officera.BusinessAccessLayer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:07:52.092Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
